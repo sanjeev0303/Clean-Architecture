@@ -16,4 +16,4 @@ create_migration:
 server:
 	yarn run dev
 
-.PHONEY: start_db stop_db server migrate migrate-down create_migration
+.PHONEY: start_db stop_db migrate migrate-down create_migration server
