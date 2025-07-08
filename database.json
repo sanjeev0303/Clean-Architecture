@@ -1,9 +1,10 @@
 {
   "dev": {
     "driver": "pg",
+    "host": "localhost",
     "user": "root",
     "password": "root",
-    "host": "127.0.0.1",
-    "database": "clean_architecture"
+    "database": "clean_architecture",
+    "port": 5432
   }
 }
